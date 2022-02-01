@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+    --main-font: "Outfit", sans-serif;
+    --card-background: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+  }
+
+ body {
+    margin-top: 2.5em;
+    font-family: var(--main-font);
+    font-size: 15px;
+
+}
+
+.main-allcontainer {
+    background-color: var(--light-gray);
+    width: 95%;
+    height: 53em;
+    margin: auto;
+    padding-top: 0.3em;
+    filter: drop-shadow(0 0 0.75rem rgb(179, 177, 177));
+}
+
+.main-container {
+    border-radius: 1.5em;
+    width: 85%;
+    height: 1em;
+    max-width: 20.8rem;
+    margin: 0 auto;
+    margin-top: 12.1rem;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    border-radius: 1em;
+    background-color: var(--card-background);
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/** Container Image **/
+.card-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+    background-image: url("../images/image-qr-code.png");
+    background-size:contain;
+}
+
+div.container-title{
+    font-weight: bold;
+    color: var(--dark-blue);
+    font-size: 1.75em;
+}
+
+div.container-subtitle{
+    color: var(--grayish-blue);
+    font-size: 1.3em;
+}
+
+/** Footer **/
+div.attribution.footer-txt {
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+    text-align: center;
+}
+
