@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: https://qr-code-d2c.netlify.app
+- Live Site URL: https://qr-code-af2.netlify.app
 
 ### Built with
 
